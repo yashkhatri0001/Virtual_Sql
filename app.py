@@ -164,4 +164,4 @@ elif option == "Operational Tasks":
                        mark_reorder_as_received(cursor, db  , selected_reorder_id)
                        st.success(f"Reorder ID {selected_reorder_id} marked as received")
                     except Exception as e:
-                        st.error(f"Error {e}")
+                        st.error(f"Error {e}") 
